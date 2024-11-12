@@ -1,0 +1,6 @@
+int find(int m,int n)
+{
+    if(n==0)
+        return m;
+    return find(n,m%n);
+}
